@@ -1,0 +1,16 @@
+{
+  "name": "jeyroik/kb-api",
+  "description": "Kilobook api",
+  "require": {
+    "jeyroik/kb-book": "*",
+    "jeyroik/kb-book-plan": "*",
+    "jeyroik/kb-plan": "*",
+    "jeyroik/kb-player-plan": "*",
+    "jeyroik/extas-jsonrpc": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "extas\\": "src/"
+    }
+  }
+}
